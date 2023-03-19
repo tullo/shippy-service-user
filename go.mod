@@ -10,7 +10,6 @@ require (
 	github.com/micro/micro/v3 v3.16.0
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
-	github.com/tullo/shippy/shippy-service-user v0.0.0-20230318131614-8bc73ce8f6ea
 	golang.org/x/crypto v0.7.0
 	google.golang.org/protobuf v1.30.0
 )
@@ -24,6 +23,7 @@ require (
 	github.com/evanphx/json-patch/v5 v5.6.0 // indirect
 	github.com/go-acme/lego/v3 v3.9.0 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hpcloud/tail v1.0.0 // indirect

@@ -5,7 +5,7 @@ import (
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/logger"
-	proto "github.com/tullo/shippy/shippy-service-user/proto"
+	proto "github.com/tullo/shippy-service-user/proto"
 )
 
 const (

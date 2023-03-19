@@ -6,7 +6,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
-	proto "github.com/tullo/shippy/shippy-service-user/proto"
+	proto "github.com/tullo/shippy-service-user/proto"
 )
 
 type User struct {

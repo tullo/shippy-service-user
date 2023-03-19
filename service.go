@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go/v4"
-	proto "github.com/tullo/shippy/shippy-service-user/proto"
+	proto "github.com/tullo/shippy-service-user/proto"
 )
 
 var (
