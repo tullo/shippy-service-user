@@ -339,6 +339,8 @@ github.com/micro/micro/v3 v3.16.0 h1:zpxINY53x9p9UKvTJ6dMmLa7wYBThreeVoEmPb5Kc5U
 github.com/micro/micro/v3 v3.16.0/go.mod h1:bpsKlWdDAEH0glK8CDsvZCXeBIWEKCzZarTHJ22x3qI=
 github.com/micro/micro/v3 v3.17.0 h1:Wa1By8frZJEC+yziH3XDQBw+pl8ypeInosi7tMnd2ko=
 github.com/micro/micro/v3 v3.17.0/go.mod h1:/CwVEPOUPU2yqsVvufx0Kwn0fnuA/zN7vN/odACrQqA=
+github.com/micro/micro/v3 v3.18.5 h1:S4OLbigWQDMX5GnHIfezNk16WcXG91TwAwMgXAi0pjE=
+github.com/micro/micro/v3 v3.18.5/go.mod h1:fW9XI74jmQ9mrNjHcHUDiLiy+Bhccl/0+XO41kr9siQ=
 github.com/miekg/dns v1.0.14/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=
 github.com/miekg/dns v1.1.27/go.mod h1:KNUDUusw/aVsxyTYZM1oqvCicbwhgbNgztCETuNZ7xM=
 github.com/miekg/dns v1.1.50 h1:DQUfb9uc6smULcREF09Uc+/Gd46YWqJd5DbpPE9xkcA=
@@ -827,6 +829,8 @@ google.golang.org/grpc v1.51.0 h1:E1eGv1FTqoLIdnBCZufiSHgKjlqG6fKFf6pPWtMTh8U=
 google.golang.org/grpc v1.51.0/go.mod h1:wgNDFcnuBGmxLKI/qn4T+m5BtEBYXJPvibbUPsAIPww=
 google.golang.org/grpc v1.53.0 h1:LAv2ds7cmFV/XTS3XG1NneeENYrXGmorPxsBbptIjNc=
 google.golang.org/grpc v1.53.0/go.mod h1:OnIrk0ipVdj4N5d9IUoFUx72/VlD7+jUsHwZgwSMQpw=
+google.golang.org/grpc v1.54.1 h1:zQZQNqQZU9cHv2vLdDhB2mFeDZ2hGpgYM1A0PKjFsSM=
+google.golang.org/grpc v1.54.1/go.mod h1:PUSEXI6iWghWaB6lXM4knEgpJNu2qUcKfDtNci3EC2g=
 google.golang.org/protobuf v0.0.0-20200109180630-ec00e32a8dfd/go.mod h1:DFci5gLYBciE7Vtevhsrf46CRTquxDuWsQurQQe4oz8=
 google.golang.org/protobuf v0.0.0-20200221191635-4d8936d0db64/go.mod h1:kwYJMbMJ01Woi6D6+Kah6886xMZcty6N08ah7+eCXa0=
 google.golang.org/protobuf v0.0.0-20200228230310-ab0ca4ff8a60/go.mod h1:cfTl7dwQJ+fmap5saPgwCLgHXTUD7jkjRqWcaiX5VyM=
