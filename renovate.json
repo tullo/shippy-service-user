@@ -2,5 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "automerge": true,
-  "ignoreTests": true
+  "ignoreTests": true,
+  "postUpdateOptions": ["gomodTidy"],
+  "constraints": {"go": "1.20"}
 }
