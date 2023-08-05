@@ -10,7 +10,7 @@ require (
 	github.com/micro/micro/v4 v4.3.1
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.12.0
 	google.golang.org/protobuf v1.31.0
 )
 
