@@ -10,7 +10,7 @@ require (
 	github.com/micro/micro/v3 v3.19.0
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
-	golang.org/x/crypto v0.21.0
+	golang.org/x/crypto v0.22.0
 	google.golang.org/protobuf v1.33.0
 )
 
@@ -44,7 +44,7 @@ require (
 	golang.org/x/exp v0.0.0-20230807204917-050eac23e9de // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.12.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
