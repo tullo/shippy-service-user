@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/golang/protobuf v1.5.4
-	github.com/jmoiron/sqlx v1.3.5
+	github.com/jmoiron/sqlx v1.4.0
 	github.com/lib/pq v1.10.9
 	github.com/micro/micro/v3 v3.19.0
 	github.com/pkg/errors v0.9.1
