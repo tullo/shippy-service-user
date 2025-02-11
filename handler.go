@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/micro/micro/v3/service/events"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/micro/micro/v5/service/events"
+	"github.com/micro/micro/v5/service/logger"
 	"github.com/pkg/errors"
 	proto "github.com/tullo/shippy-service-user/proto"
 	"golang.org/x/crypto/bcrypt"
