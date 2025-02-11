@@ -5,8 +5,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	"github.com/micro/micro/v3/service/config"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/micro/micro/v5/service/config"
+	"github.com/micro/micro/v5/service/logger"
 )
 
 // NewConnection returns a new database connection instance
