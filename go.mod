@@ -13,7 +13,7 @@ require (
 	github.com/micro/micro/v5 v5.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
-	golang.org/x/crypto v0.34.0
+	golang.org/x/crypto v0.35.0
 	google.golang.org/protobuf v1.36.5
 )
 
