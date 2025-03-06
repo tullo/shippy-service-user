@@ -1,10 +1,15 @@
 SHELL = /bin/bash -o pipefail
 export SVC=shippy-service-user
 
+.PHONY: init
+init:
+	@go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+	@go install github.com/micro/micro/v5/cmd/protoc-gen-micro@latest
+
 build: export CGO_ENABLED=0
 build: export GOOS=linux
 build:
-	go build -o shippy-service-user -mod mod -trimpath
+	@go build -o shippy-service-user -mod mod -trimpath
 
 docker-image: export DOCKER_BUILDKIT=1
 docker-image:
@@ -65,10 +70,10 @@ micro-user-validateToken:
 	--token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyIjp7ImlkIjoiOTU4NWM2YmItY2VkNi00YTE5LWI1ZjctZTE4NmRlYTBlMjNiIiwiZW1haWwiOiJqb2huLmRvZUBjcGguY29tIiwicGFzc3dvcmQiOiJzM2NyM3QifSwiZXhwIjoxNjEyNDc5NzU0LCJpYXQiOjE2MTI0NzYxNTQsImlzcyI6InNoaXBweS5zZXJ2aWNlLnVzZXIifQ.H_S3zGsqz3xN5B6pkbmO3b6kY8VmbD1JZfSxbbAbi5w"
 
 micro-store-list:
-	micro store list
+	@micro store list
 
 micro-store-read:
-	micro store read user.created/ffa39464-0cb0-4a3d-a69d-7fc2bd48a40b
+	@micro store read user.created/ffa39464-0cb0-4a3d-a69d-7fc2bd48a40b
 
 curl-user-create:
 	@curl -H "Content-Type:application/json" \
