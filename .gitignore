@@ -16,3 +16,4 @@
 service.go
 shippy-service-user
 bin/
+.devbox/
