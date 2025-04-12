@@ -1,0 +1,22 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+
+  default:
+    cmds:
+      - task run-checks
+      - task build
+    silent: true
+
+  run-checks:
+    cmds:
+      - go vet .
+      - staticcheck -go 'module' .
+    silent: true
+
+  build:
+    cmds:
+      - go build -race -mod=mod -trimpath .
+    silent: true
