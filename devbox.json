@@ -3,7 +3,7 @@
   "packages": [
     "go@1.24.5",
     "go-task@3.44.1",
-    "git@2.50.1"
+    "git@2.51.0"
   ],
   "shell": {
     "init_hook": [
