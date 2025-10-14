@@ -2,7 +2,7 @@ module github.com/tullo/shippy-service-user
 
 go 1.23.0
 
-toolchain go1.25.2
+toolchain go1.25.3
 
 require (
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
