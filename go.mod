@@ -7,7 +7,7 @@ toolchain go1.25.6
 require (
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/jmoiron/sqlx v1.4.0
-	github.com/lib/pq v1.10.9
+	github.com/lib/pq v1.11.0
 	github.com/micro/micro/v5 v5.8.0
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
